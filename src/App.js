@@ -226,7 +226,7 @@ export default function Home() {
                 >
                   <Grid container spacing={2}>
                     <Grid item sm={12}>
-                      <Typography variant="body1">1. Clients Name</Typography>
+                      <Typography variant="body1">1. Client's Name</Typography>
                     </Grid>
                     <Grid item xs={12} sm={4}>
                       <TextField
@@ -342,7 +342,7 @@ export default function Home() {
                     </div>
 
                     <Grid item sm={12}>
-                      <Typography variant="body1">3. Amount Payment</Typography>
+                      <Typography variant="body1">3. Payment Amount</Typography>
                     </Grid>
                     <Grid item xs={12}>
                       <TextField
@@ -539,7 +539,16 @@ export default function Home() {
         <div className=" col-span-3 px-10 py-16 bg-grid lg:max-h-screen overflow-y-auto">
           <div className="bg-white px-16 py-16 max-w-3xl m-auto">
             <div className="flex justify-center pb-10">
-              <img src="/eralista.png" alt="" className=" w-60" />
+              {/* <img src="/eralista.png" alt="" className=" w-60" /> */}
+              <div className="text-center">
+                <h1 className=" font-bold text-2xl">Company ABC</h1>
+                <p className=" italic">
+                  Sample Contract Content for Demo Purpose
+                </p>
+                <p className=" italic">
+                  Do not put your identifiable information
+                </p>
+              </div>
             </div>
             <p>
               This is to confirm that{" "}
@@ -584,7 +593,7 @@ export default function Home() {
               I will avail.
             </p>
             <br></br>
-            <p>It also includes Other Ways to Earn from JC.</p>
+            {/* <p>It also includes Other Ways to Earn from JC.</p> */}
             <br></br>
             <br></br>
             <br></br>
@@ -601,14 +610,13 @@ export default function Home() {
                     : "Franchise Type"}
                 </u>
               </b>{" "}
-              will be handled by ERALISTA WORLDWIDE GROUP, the LARGEST ONLINE
-              FRANCHISE SUPPORT GROUP.
+              will be handled by Company ABC.
             </p>
             <br></br>
             <br></br>
             <br></br>
             <p>
-              <b>ERALISTA will provide the following steps:</b>
+              <b>Company ABC will provide the following steps:</b>
             </p>
             <br></br>
             <p className="pb-2">STEP 1: APPLICATION/REQUIREMENTS</p>
@@ -701,7 +709,7 @@ export default function Home() {
             </p>
             <br></br>
             <p>
-              I authorize ERALISTA to collect and process the data indicated
+              I authorize Company ABC to collect and process the data indicated
               herein for the purpose of availing the franchise package. I
               understand that my personal information is protected by RA 10173
               (Data Privacy Act of 2012).
