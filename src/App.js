@@ -537,6 +537,19 @@ export default function Home() {
           </ThemeProvider>
         </div>
         <div className=" col-span-3 px-10 py-16 bg-grid lg:max-h-screen overflow-y-auto">
+          <div className="pb-5">
+            For demo purposes: After submitting Contract:
+            <br />
+            <a href="https://drive.google.com/drive/u/2/folders/1x5GEPqekfGwdbHd949T8kyF3k2XNdggX">
+              Your generated contract will be saved here{" "}
+              <span class="text-blue-500 underline">Google Drive</span>
+            </a>
+            <br />
+            <a href="https://docs.google.com/spreadsheets/d/1r7uIJ8HZUpveoBuaoeDuxiIJ_q6TivnbzMVXbaT7ApE">
+              Your details will be appended here{" "}
+              <span class="text-blue-500 underline">Google Sheet</span>
+            </a>
+          </div>
           <div className="bg-white px-16 py-16 max-w-3xl m-auto">
             <div className="flex justify-center pb-10">
               {/* <img src="/eralista.png" alt="" className=" w-60" /> */}
